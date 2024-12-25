@@ -16,4 +16,9 @@ codes.forEach((code, idx) => {
       }
     }
   });
+
+  // Automatically focus on the first input field when the page loads
+  if (idx === 0) {
+    code.focus();
+  }
 });
